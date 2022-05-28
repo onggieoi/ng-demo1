@@ -1,7 +1,7 @@
 // Angular
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ClipboardModule } from 'ngx-clipboard';
+// import { ClipboardModule } from 'ngx-clipboard';
 import { NgbTabsetModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 // Perfect ScrollBar
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
@@ -17,7 +17,6 @@ import { HighlightModule } from 'ngx-highlightjs';
 		CoreModule,
 		HighlightModule,
 		PerfectScrollbarModule,
-		ClipboardModule,
 
 		// ngbootstrap
 		NgbTabsetModule,

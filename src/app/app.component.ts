@@ -1,6 +1,6 @@
 import { Subscription } from 'rxjs';
 // Angular
-import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Inject, OnDestroy, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 // Layout
 import { LayoutConfigService, SplashScreenService, TranslationService } from './core/_base/layout';
